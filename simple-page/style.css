@@ -1,0 +1,79 @@
+body{
+     margin: 0;
+     padding: 0;
+     background-color: aqua;
+     background-image: url(images/mountains-8404275_1920.jpg);
+}
+
+#container img{
+     height: 50px;
+     width: 50px;
+     border: 3px saddlebrown;
+     border-radius: 50%;
+}
+
+#container nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     padding: 15px;
+     background-color: aliceblue;
+}
+
+#container nav a{
+     text-decoration: none;
+     font-size: xx-large;
+     color: black;
+     font-weight: bolder;
+     padding: 10px;
+}
+
+#container nav a:hover{
+     color: rgb(0, 255, 51);
+     background-color: rgb(102, 68, 68);
+     padding: 10px;
+     border: 4px white;
+     border-radius: 30px;
+}
+
+#hero{
+     display: grid;
+     display: 100%;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%;
+}
+
+#hero h1{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     margin: 5px;
+     color: white;
+     border: 3px black;
+}
+
+#hero #butt{
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+}
+
+#hero button{
+     justify-content: center;
+     align-items: center;
+     height: 50px;
+     width: 100px;
+     border: 3px solid rgb(18, 60, 228);
+     border-radius: 30px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     font-weight: bolder;
+}
+
+#hero button:hover{
+     background-color: rgb(220, 27, 27);
+     color: black;
+}
