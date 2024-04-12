@@ -1,0 +1,64 @@
+body {
+     height: 100vh;
+     width: 100vw;
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     background-image: url(images/background.jpg);
+     background-size: cover;
+     height: 100vh;
+}
+
+.head h1{
+     font-size: 2rem;
+     color: white;
+}
+
+#container {
+     border: 4px solid black;
+     border-radius: 2rem;
+     padding: 2rem;
+     background-color: rgba(241, 144, 244, 0.3);
+     height: 20rem;
+     width: 19rem;
+}
+
+#inputs {
+     display: grid;
+     gap: 0.5rem;
+}
+
+#inputs label{
+     font-size: 1.2rem;
+     color: aliceblue;
+}
+
+#inputs input{
+     border: 2px solid black;
+     border-radius: 0.4rem;
+     padding: 0.6rem;
+     width: 240px;
+     height: 20px;
+}
+
+.Forget {
+     font-size: 1rem;
+     margin: 10px;
+}
+
+#container div {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+}
+
+button {
+     border-radius: 0.3rem;
+     background-color: black;
+     height: 2.5rem;
+     width: 6rem;
+     font-size: large;
+     font-weight: bolder;
+     color: aliceblue;
+     margin-top: 10px;
+}
